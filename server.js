@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const Car = require('./models/car'); // Import the Car model
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -22,3 +23,6 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
+// server.js
+const carRoutes = require('./routes/cars');
+app.use('/api/cars', carRoutes);
