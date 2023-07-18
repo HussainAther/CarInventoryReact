@@ -73,7 +73,4 @@ Contributions are welcome! If you find a bug or want to add a new feature, pleas
 ## License
 This project is licensed under the MIT License.
 
-## Acknowledgments
-OpenAI for providing the AI language model that helped in generating code snippets.
-
 
